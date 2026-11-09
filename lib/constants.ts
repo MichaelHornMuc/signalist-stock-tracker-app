@@ -4,6 +4,13 @@ export const NAV_ITEMS = [
   { href: '/watchlist', label: 'Watchlist' },
 ]
 
+export const INVESTMENT_GOALS = [
+  { value: 'Growth', label: 'Growth' },
+  { value: 'Income', label: 'Income' },
+  { value: 'Balanced', label: 'Balanced' },
+  { value: 'Conservative', label: 'Conservative' },
+]
+
 export const MARKET_OVERVIEW_WIDGET_CONFIG = {
   colorTheme: 'dark', // dark mode
   dateRange: '12M', // last 12 months
@@ -136,3 +143,17 @@ export const MARKET_DATA_WIDGET_CONFIG = {
     },
   ],
 }
+
+export const RISK_TOLERANCE_OPTIONS = [
+    { value: 'Low', label: 'Low' },
+    { value: 'Medium', label: 'Medium' },
+    { value: 'High', label: 'High' },
+];
+
+export const PREFERRED_INDUSTRIES = [
+    { value: 'Technology', label: 'Technology' },
+    { value: 'Healthcare', label: 'Healthcare' },
+    { value: 'Finance', label: 'Finance' },
+    { value: 'Energy', label: 'Energy' },
+    { value: 'Consumer Goods', label: 'Consumer Goods' },
+];
