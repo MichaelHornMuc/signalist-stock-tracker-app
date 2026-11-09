@@ -12,6 +12,7 @@ interface TradingViewWidgetProps {
   className?: string
 }
 
+
 function TradingViewWidget({
   title,
   scriptUrl,

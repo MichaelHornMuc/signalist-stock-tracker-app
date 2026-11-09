@@ -12,7 +12,6 @@ const useTradingViewWidget = (
     if (!containerRef.current) return
     if (containerRef.current.dataset.loaded) return
     containerRef.current.innerHTML = `<div class="tradingview-widget-container__widget" style="width: 100%; height: ${height}px;"></div>`
-    console.log(containerRef)
     const script = document.createElement('script')
     script.src = scriptUrl
     script.async = true
